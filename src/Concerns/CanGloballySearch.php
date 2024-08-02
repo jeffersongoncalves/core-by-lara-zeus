@@ -21,7 +21,7 @@ trait CanGloballySearch
     public function getGlobalAttributes(string $class): array
     {
         return optional(array_merge(
-            (new static())::get()->defaultGloballySearchableAttributes,
+            (new static)::get()->defaultGloballySearchableAttributes,
             $this->globallySearchableAttributes
         ))[$class] ?? [$class];
     }
