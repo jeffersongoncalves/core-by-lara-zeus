@@ -29,8 +29,8 @@ module.exports = {
         // hermes
         '../hermes/resources/views/themes/**/*.blade.php',
         // Rain
-        '../dynamic-dashboard/resources/views/themes/**/*.blade.php',
-        '../dynamic-dashboard/src/Models/Columns.php',
+        '../rain/resources/views/themes/**/*.blade.php',
+        '../rain/src/Models/Columns.php',
         // filament
         './vendor/filament/**/*.blade.php',
     ],
