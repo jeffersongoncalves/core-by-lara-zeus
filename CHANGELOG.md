@@ -2,6 +2,16 @@
 
 All notable changes to `zeus` will be documented in this file
 
+## v3.2.0 - 2025-03-03
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot in https://github.com/lara-zeus/core/pull/104
+* Bump aglipanci/laravel-pint-action from 2.4 to 2.5 by @dependabot in https://github.com/lara-zeus/core/pull/105
+* support laravel 12 by @atmonshi in https://github.com/lara-zeus/core/pull/106
+
+**Full Changelog**: https://github.com/lara-zeus/core/compare/v3.1.12...v3.2.0
+
 ## v3.1.12 - 2024-10-05
 
 ### What's Changed
@@ -411,11 +421,13 @@ php artisan vendor:publish --tag=zeus-assets
 
 
 
+
 ```
 the same for the views, backup your changes and republish them:
 
 ```bash
 php artisan vendor:publish --tag=zeus-views
+
 
 
 
