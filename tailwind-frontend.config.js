@@ -28,9 +28,9 @@ module.exports = {
         '../helen/src/Facades/Helen.php',
         // hermes
         '../hermes/resources/views/themes/**/*.blade.php',
-        // Rain
-        '../rain/resources/views/themes/**/*.blade.php',
-        '../rain/src/Models/Columns.php',
+        // dynamic dashboard
+        '../dynamic-dashboard/resources/views/themes/**/*.blade.php',
+        '../dynamic-dashboard/src/Models/Columns.php',
         // filament
         './vendor/filament/**/*.blade.php',
     ],

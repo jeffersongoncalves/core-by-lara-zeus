@@ -14,7 +14,6 @@ mix
     ])
 
     .js('resources/js/plugin.js', 'resources/dist/plugin.js')
-    //.js("resources/js/helen.js", "resources/dist/helen.js")
    .setPublicPath('resources');
 
 if (mix.inProduction()) {
@@ -23,5 +22,4 @@ if (mix.inProduction()) {
     mix.copy('resources/dist', '../demo/public/css/lara-zeus')
     mix.copy('resources/dist', '../demo/public/vendor/zeus')
     mix.copy('resources/dist', '../zeus/public/vendor/zeus')
-    mix.copy('resources/dist', '../ath/public/vendor/zeus')
 }
