@@ -37,6 +37,17 @@ class CoreServiceProvider extends PackageServiceProvider
                 'popover',
                 'accordion',
                 'hera',
+                'akin',
+                'athena',
+                'boredom',
+                'delia',
+                'filament-plugin-tools',
+                'hades',
+                'inline-chart',
+                'list-group',
+                'quantity',
+                'replies',
+                'tiles',
             ])
                 ->filter(fn (string $package): bool => InstalledVersions::isInstalled("lara-zeus/{$package}"))
                 ->mapWithKeys(fn ($package) => [$package => InstalledVersions::getPrettyVersion("lara-zeus/{$package}")])
