@@ -26,25 +26,25 @@
         "ext-json": "*",
         "ext-pdo_sqlite": "*",
         "ext-sqlite3": "*",
-        "filament/spatie-laravel-translatable-plugin": "^3.1",
-        "archtechx/laravel-seo": "^0.10",
+        "filament/spatie-laravel-translatable-plugin": "^3.3",
+        "archtechx/laravel-seo": "dev-l12-compatibility",
         "calebporzio/sushi": "^2.4",
         "codeat3/blade-iconpark": "^1.5",
-        "filament/filament": "^3.1"
+        "filament/filament": "^3.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^10.1",
-        "nunomaduro/collision": "^7.0",
-        "pestphp/pest-plugin-livewire": "2.x-dev",
-        "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
+        "phpstan/phpstan-deprecation-rules": "^2.0",
+        "phpstan/phpstan-phpunit": "^2.0",
         "laravel/pint": "^1.0",
-        "larastan/larastan": "^2.2",
-        "orchestra/testbench": "^8.0",
-        "pestphp/pest": "^2.0",
-        "pestphp/pest-plugin-laravel": "^2.0",
-        "phpstan/extension-installer": "^1.1",
-        "phpstan/phpstan": "^1.10"
+        "nunomaduro/collision": "^8.6",
+        "larastan/larastan": "^3.0",
+        "nunomaduro/phpinsights": "^2.8",
+        "orchestra/testbench": "^10.0",
+        "pestphp/pest": "^3.0",
+        "pestphp/pest-plugin-arch": "^3.0",
+        "pestphp/pest-plugin-laravel": "^3.0",
+        "pestphp/pest-plugin-livewire": "^3.0",
+        "phpstan/extension-installer": "^1.4"
     },
     "autoload": {
         "psr-4": {
@@ -72,7 +72,6 @@
             "phpstan/extension-installer": true
         }
     },
-    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
