@@ -2,6 +2,14 @@
 
 All notable changes to `zeus` will be documented in this file
 
+## v3.2.1 - 2025-03-07
+
+### What's Changed
+
+* remove blade iconpark by @atmonshi in https://github.com/lara-zeus/core/pull/107
+
+**Full Changelog**: https://github.com/lara-zeus/core/compare/v3.2.0...v3.2.1
+
 ## v3.2.0 - 2025-03-03
 
 ### What's Changed
@@ -422,11 +430,13 @@ php artisan vendor:publish --tag=zeus-assets
 
 
 
+
 ```
 the same for the views, backup your changes and republish them:
 
 ```bash
 php artisan vendor:publish --tag=zeus-views
+
 
 
 
