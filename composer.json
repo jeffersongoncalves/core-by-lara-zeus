@@ -27,7 +27,6 @@
         "filament/spatie-laravel-translatable-plugin": "^3.3",
         "lara-zeus/laravel-seo": "^1.0",
         "calebporzio/sushi": "^2.4",
-        "codeat3/blade-iconpark": "^1.5",
         "filament/filament": "^3.3"
     },
     "require-dev": {
