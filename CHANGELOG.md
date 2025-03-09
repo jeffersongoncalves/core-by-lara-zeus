@@ -2,6 +2,14 @@
 
 All notable changes to `zeus` will be documented in this file
 
+## v3.2.2 - 2025-03-09
+
+### What's Changed
+
+* fix filament version by @atmonshi in https://github.com/lara-zeus/core/pull/108
+
+**Full Changelog**: https://github.com/lara-zeus/core/compare/v3.2.1...v3.2.2
+
 ## v3.2.1 - 2025-03-07
 
 ### What's Changed
@@ -431,11 +439,13 @@ php artisan vendor:publish --tag=zeus-assets
 
 
 
+
 ```
 the same for the views, backup your changes and republish them:
 
 ```bash
 php artisan vendor:publish --tag=zeus-views
+
 
 
 
